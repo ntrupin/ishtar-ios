@@ -1,6 +1,6 @@
 //
 //  ishtarApp.swift
-//  Shared
+//  ishtar
 //
 //  Created by Noah Trupin on 10/10/21.
 //

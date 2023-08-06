@@ -7,14 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8227695627135CAC0062503E /* BannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8227694827135CAC0062503E /* BannerView.swift */; };
+		8227695727135CAC0062503E /* BannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8227694827135CAC0062503E /* BannerView.swift */; };
+		8227695827135CAC0062503E /* Scraper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8227694927135CAC0062503E /* Scraper.swift */; };
+		8227695927135CAC0062503E /* Scraper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8227694927135CAC0062503E /* Scraper.swift */; };
+		8227695A27135CAC0062503E /* ExtColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8227694A27135CAC0062503E /* ExtColor.swift */; };
+		8227695B27135CAC0062503E /* ExtColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8227694A27135CAC0062503E /* ExtColor.swift */; };
+		8227695C27135CAC0062503E /* ExtView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8227694B27135CAC0062503E /* ExtView.swift */; };
+		8227695D27135CAC0062503E /* ExtView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8227694B27135CAC0062503E /* ExtView.swift */; };
+		8227695E27135CAC0062503E /* BookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8227694C27135CAC0062503E /* BookView.swift */; };
+		8227695F27135CAC0062503E /* BookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8227694C27135CAC0062503E /* BookView.swift */; };
+		8227696227135CAC0062503E /* EntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8227694E27135CAC0062503E /* EntryView.swift */; };
+		8227696327135CAC0062503E /* EntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8227694E27135CAC0062503E /* EntryView.swift */; };
+		8227696427135CAC0062503E /* ExtCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8227694F27135CAC0062503E /* ExtCollection.swift */; };
+		8227696527135CAC0062503E /* ExtCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8227694F27135CAC0062503E /* ExtCollection.swift */; };
+		8227696627135CAC0062503E /* ExtUIScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8227695027135CAC0062503E /* ExtUIScreen.swift */; };
+		8227696727135CAC0062503E /* ExtUIScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8227695027135CAC0062503E /* ExtUIScreen.swift */; };
+		8227696827135CAC0062503E /* AsyncImagePolyfill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8227695127135CAC0062503E /* AsyncImagePolyfill.swift */; };
+		8227696927135CAC0062503E /* AsyncImagePolyfill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8227695127135CAC0062503E /* AsyncImagePolyfill.swift */; };
+		8227696E27135CAC0062503E /* LocationDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8227695427135CAC0062503E /* LocationDemo.swift */; };
+		8227696F27135CAC0062503E /* LocationDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8227695427135CAC0062503E /* LocationDemo.swift */; };
+		8227697027135CAC0062503E /* CategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8227695527135CAC0062503E /* CategoryView.swift */; };
+		8227697127135CAC0062503E /* CategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8227695527135CAC0062503E /* CategoryView.swift */; };
+		8227697427135CBE0062503E /* SwiftSoup in Frameworks */ = {isa = PBXBuildFile; productRef = 8227697327135CBE0062503E /* SwiftSoup */; };
+		82276976271363E10062503E /* ishtarApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82276975271363E10062503E /* ishtarApp.swift */; };
+		82276977271363E10062503E /* ishtarApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82276975271363E10062503E /* ishtarApp.swift */; };
+		82276979271366C10062503E /* CategoriesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82276978271366C10062503E /* CategoriesView.swift */; };
+		8227697A271366C10062503E /* CategoriesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82276978271366C10062503E /* CategoriesView.swift */; };
+		8227697C2713874B0062503E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8227697B2713874B0062503E /* ContentView.swift */; };
+		8227697D2713874B0062503E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8227697B2713874B0062503E /* ContentView.swift */; };
+		8227697F2713D20A0062503E /* ViewManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8227697E2713D20A0062503E /* ViewManager.swift */; };
+		822769802713D20A0062503E /* ViewManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8227697E2713D20A0062503E /* ViewManager.swift */; };
+		822769822713D3DF0062503E /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 822769812713D3DF0062503E /* HeaderView.swift */; };
+		822769832713D3DF0062503E /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 822769812713D3DF0062503E /* HeaderView.swift */; };
 		8242A31227135C3100EFCF9C /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8242A31127135C3100EFCF9C /* Tests_iOS.swift */; };
 		8242A31427135C3100EFCF9C /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8242A31327135C3100EFCF9C /* Tests_iOSLaunchTests.swift */; };
 		8242A31E27135C3100EFCF9C /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8242A31D27135C3100EFCF9C /* Tests_macOS.swift */; };
 		8242A32027135C3100EFCF9C /* Tests_macOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8242A31F27135C3100EFCF9C /* Tests_macOSLaunchTests.swift */; };
-		8242A32127135C3100EFCF9C /* ishtarApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8242A2F927135C3100EFCF9C /* ishtarApp.swift */; };
-		8242A32227135C3100EFCF9C /* ishtarApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8242A2F927135C3100EFCF9C /* ishtarApp.swift */; };
-		8242A32327135C3100EFCF9C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8242A2FA27135C3100EFCF9C /* ContentView.swift */; };
-		8242A32427135C3100EFCF9C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8242A2FA27135C3100EFCF9C /* ContentView.swift */; };
 		8242A32527135C3100EFCF9C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8242A2FB27135C3100EFCF9C /* Assets.xcassets */; };
 		8242A32627135C3100EFCF9C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8242A2FB27135C3100EFCF9C /* Assets.xcassets */; };
 /* End PBXBuildFile section */
@@ -37,8 +66,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		8242A2F927135C3100EFCF9C /* ishtarApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ishtarApp.swift; sourceTree = "<group>"; };
-		8242A2FA27135C3100EFCF9C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8227694827135CAC0062503E /* BannerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BannerView.swift; sourceTree = "<group>"; };
+		8227694927135CAC0062503E /* Scraper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Scraper.swift; sourceTree = "<group>"; };
+		8227694A27135CAC0062503E /* ExtColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtColor.swift; sourceTree = "<group>"; };
+		8227694B27135CAC0062503E /* ExtView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtView.swift; sourceTree = "<group>"; };
+		8227694C27135CAC0062503E /* BookView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookView.swift; sourceTree = "<group>"; };
+		8227694E27135CAC0062503E /* EntryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EntryView.swift; sourceTree = "<group>"; };
+		8227694F27135CAC0062503E /* ExtCollection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtCollection.swift; sourceTree = "<group>"; };
+		8227695027135CAC0062503E /* ExtUIScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtUIScreen.swift; sourceTree = "<group>"; };
+		8227695127135CAC0062503E /* AsyncImagePolyfill.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AsyncImagePolyfill.swift; sourceTree = "<group>"; };
+		8227695427135CAC0062503E /* LocationDemo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationDemo.swift; sourceTree = "<group>"; };
+		8227695527135CAC0062503E /* CategoryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryView.swift; sourceTree = "<group>"; };
+		82276975271363E10062503E /* ishtarApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ishtarApp.swift; sourceTree = "<group>"; };
+		82276978271366C10062503E /* CategoriesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesView.swift; sourceTree = "<group>"; };
+		8227697B2713874B0062503E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8227697E2713D20A0062503E /* ViewManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewManager.swift; sourceTree = "<group>"; };
+		822769812713D3DF0062503E /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		8242A2FB27135C3100EFCF9C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8242A30027135C3100EFCF9C /* ishtar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ishtar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8242A30627135C3100EFCF9C /* ishtar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ishtar.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -56,6 +99,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8227697427135CBE0062503E /* SwiftSoup in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,9 +141,23 @@
 		8242A2F827135C3100EFCF9C /* Shared */ = {
 			isa = PBXGroup;
 			children = (
-				8242A2F927135C3100EFCF9C /* ishtarApp.swift */,
-				8242A2FA27135C3100EFCF9C /* ContentView.swift */,
+				8227695527135CAC0062503E /* CategoryView.swift */,
+				8227695127135CAC0062503E /* AsyncImagePolyfill.swift */,
+				8227694827135CAC0062503E /* BannerView.swift */,
+				8227694C27135CAC0062503E /* BookView.swift */,
+				8227694E27135CAC0062503E /* EntryView.swift */,
+				8227694F27135CAC0062503E /* ExtCollection.swift */,
+				8227694A27135CAC0062503E /* ExtColor.swift */,
+				8227695027135CAC0062503E /* ExtUIScreen.swift */,
+				8227694B27135CAC0062503E /* ExtView.swift */,
+				8227695427135CAC0062503E /* LocationDemo.swift */,
+				8227694927135CAC0062503E /* Scraper.swift */,
 				8242A2FB27135C3100EFCF9C /* Assets.xcassets */,
+				82276975271363E10062503E /* ishtarApp.swift */,
+				82276978271366C10062503E /* CategoriesView.swift */,
+				8227697B2713874B0062503E /* ContentView.swift */,
+				8227697E2713D20A0062503E /* ViewManager.swift */,
+				822769812713D3DF0062503E /* HeaderView.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -157,6 +215,9 @@
 			dependencies = (
 			);
 			name = "ishtar (iOS)";
+			packageProductDependencies = (
+				8227697327135CBE0062503E /* SwiftSoup */,
+			);
 			productName = "ishtar (iOS)";
 			productReference = 8242A30027135C3100EFCF9C /* ishtar.app */;
 			productType = "com.apple.product-type.application";
@@ -249,6 +310,9 @@
 				Base,
 			);
 			mainGroup = 8242A2F327135C3100EFCF9C;
+			packageReferences = (
+				8227697227135CBE0062503E /* XCRemoteSwiftPackageReference "SwiftSoup" */,
+			);
 			productRefGroup = 8242A30127135C3100EFCF9C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -299,8 +363,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8242A32327135C3100EFCF9C /* ContentView.swift in Sources */,
-				8242A32127135C3100EFCF9C /* ishtarApp.swift in Sources */,
+				8227695C27135CAC0062503E /* ExtView.swift in Sources */,
+				8227696E27135CAC0062503E /* LocationDemo.swift in Sources */,
+				8227697C2713874B0062503E /* ContentView.swift in Sources */,
+				8227696627135CAC0062503E /* ExtUIScreen.swift in Sources */,
+				8227695827135CAC0062503E /* Scraper.swift in Sources */,
+				8227697027135CAC0062503E /* CategoryView.swift in Sources */,
+				8227695A27135CAC0062503E /* ExtColor.swift in Sources */,
+				82276979271366C10062503E /* CategoriesView.swift in Sources */,
+				8227696827135CAC0062503E /* AsyncImagePolyfill.swift in Sources */,
+				8227695E27135CAC0062503E /* BookView.swift in Sources */,
+				8227695627135CAC0062503E /* BannerView.swift in Sources */,
+				8227696227135CAC0062503E /* EntryView.swift in Sources */,
+				8227697F2713D20A0062503E /* ViewManager.swift in Sources */,
+				82276976271363E10062503E /* ishtarApp.swift in Sources */,
+				8227696427135CAC0062503E /* ExtCollection.swift in Sources */,
+				822769822713D3DF0062503E /* HeaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,8 +386,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8242A32427135C3100EFCF9C /* ContentView.swift in Sources */,
-				8242A32227135C3100EFCF9C /* ishtarApp.swift in Sources */,
+				8227695D27135CAC0062503E /* ExtView.swift in Sources */,
+				8227696F27135CAC0062503E /* LocationDemo.swift in Sources */,
+				8227697D2713874B0062503E /* ContentView.swift in Sources */,
+				8227696727135CAC0062503E /* ExtUIScreen.swift in Sources */,
+				8227695927135CAC0062503E /* Scraper.swift in Sources */,
+				8227697127135CAC0062503E /* CategoryView.swift in Sources */,
+				8227695B27135CAC0062503E /* ExtColor.swift in Sources */,
+				8227697A271366C10062503E /* CategoriesView.swift in Sources */,
+				8227696927135CAC0062503E /* AsyncImagePolyfill.swift in Sources */,
+				8227695F27135CAC0062503E /* BookView.swift in Sources */,
+				8227695727135CAC0062503E /* BannerView.swift in Sources */,
+				8227696327135CAC0062503E /* EntryView.swift in Sources */,
+				822769802713D20A0062503E /* ViewManager.swift in Sources */,
+				82276977271363E10062503E /* ishtarApp.swift in Sources */,
+				8227696527135CAC0062503E /* ExtCollection.swift in Sources */,
+				822769832713D3DF0062503E /* HeaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -398,6 +490,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -451,6 +544,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -468,9 +562,11 @@
 				DEVELOPMENT_TEAM = J5B6D4VLPX;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Ishtar;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -498,9 +594,11 @@
 				DEVELOPMENT_TEAM = J5B6D4VLPX;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Ishtar;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -725,6 +823,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		8227697227135CBE0062503E /* XCRemoteSwiftPackageReference "SwiftSoup" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/scinfu/SwiftSoup.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		8227697327135CBE0062503E /* SwiftSoup */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8227697227135CBE0062503E /* XCRemoteSwiftPackageReference "SwiftSoup" */;
+			productName = SwiftSoup;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 8242A2F427135C3100EFCF9C /* Project object */;
 }
